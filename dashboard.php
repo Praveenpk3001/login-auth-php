@@ -50,15 +50,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["logout"])) {
       </div>
     </div>
   </section>
-  <?php 
-       
-        echo $_SESSION["name"] ;
-        echo $_SESSION["age"] ;
-        echo $_SESSION["gender"] ;
-        echo $_SESSION["phone"] ;
-       
-?>
-
-
 </body>
 </html>
